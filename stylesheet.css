@@ -1,0 +1,161 @@
+h1 {
+color: white;
+font-family: verdana;
+text-align: center;
+}
+
+p {
+color: white;
+font-family: arial;
+text-align: center;
+}
+
+body {
+background-repeat: no-repeat, repeat;
+background-image: url(maui-header.jpg);
+ font-family: "Verdana";
+  font-size: 22px;
+}
+
+body {
+background-color: #421010;
+ font-family: "Verdana";
+  font-size: 22px;
+}
+
+body, html {
+  height: 100%;
+   font-family: "Verdana";
+  font-size: 22px;
+}
+
+.parallax {
+  text-align:center;
+  background-image: url('img_parallax.jpg');
+  color: white;
+  font-size: 36px;
+
+  height: 50%; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #421010;
+  font-family: Verdana;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #a52a2a;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #421010;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #a52a2a;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.glow {
+  font-family: Arial;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #a52a2a, 0 0 20px #a52a2a, 0 0 30px #942525, 0 0 40px #842121, 0 0 50px #731d1d, 0 0 60px #731d1d, 0 0 70px #731d1d;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #631919, 0 0 30px #521515, 0 0 40px #521515, 0 0 50px #521515, 0 0 60px #521515, 0 0 70px #521515, 0 0 80px #521515;
+  }
+}
